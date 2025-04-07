@@ -125,12 +125,12 @@ nav{
 }
 .about{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: auto;
     position: relative;
     right: 100px;
-    
-  
+     
+   
 }
 .about p{
     color: gray;
@@ -139,14 +139,20 @@ nav{
 }
 
 .about2{
-    padding: 80px;
-    width: 60%;
+    display: flex;
+   justify-content: space-around; 
     /* height: 70vh; */
-    padding: 100px;
+   display: flex;
+  
+  
    
 }
 .gridee{
-   text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   
+
 }
 .une{
     width: 180px;
@@ -155,6 +161,7 @@ nav{
     text-align: center;
     border:  solid black;
     padding: 10px;
+    margin: auto;
 }
 .deux{
     width: 180px;
@@ -163,6 +170,7 @@ nav{
     border:  solid black;
     text-align: center;
     padding: 10px;
+    margin: auto;
 }
 .trois{
     width: 180px;
@@ -171,6 +179,7 @@ nav{
     border: solid black;
     text-align: center;
     padding: 10px;
+    margin: auto;
 }
 .quatre{
     width: 180px;
@@ -179,6 +188,7 @@ nav{
     border: solid black;
     text-align: center;
     padding: 10px;
+    margin: auto;
 }
 .list{
     display:flex;
