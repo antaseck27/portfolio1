@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    /* font-size: 15px; */
    
    
 }
@@ -95,7 +96,7 @@ nav{
   display: flex;
   justify-content: space-around;
   padding: 50px;
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
  
 }
 .gridee{
@@ -124,7 +125,7 @@ nav{
 }
 .about{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
     padding: 50px;
     /* position: relative;
@@ -140,8 +141,10 @@ nav{
 }
 
 .about2{
+  
     position: relative;
-    left: 200px;
+    left: 120px; 
+     padding: 100px;
     /* display: flex;
    justify-content: space-around;  */
     /* height: 70vh; */
@@ -324,24 +327,17 @@ nav{
 .meuve{
     background-color: #28023D;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 0px;
-    /* font: 10.7px; */
     color: white;
-    padding: 100px;
-    font-size: 1.2em;
-    margin: auto;
-    
-
-   
+    padding: 50px;
+    font-size: 20px;
 }
 .meuvun{
-   position: relative;
-   left: -70px;
-   margin: 50px;
-   /* font-size: 20px; */
-   /* font-weight: bold; */
-   
+    padding: 50px;
+    position: relative;
+   right:50px;
+   margin: 0px;
 }
 .meuv ul{
     list-style-type: circle;
@@ -358,17 +354,16 @@ nav{
     justify-content: space-around;
     /* font: 14.7px; */
     padding: 100px;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     margin: auto;
+    padding: 80px;
    
 }
 .edu2{
-    /* margin: 50px;
-    position: relative;
-    left: -10px;
-    font-size: 20PX;
-    border-left: 1px solid #000;
-    padding-left: 25px; */
+    
+    
+    /* font-size: 1.2em; */
+   
 }
 .edu h4{
     color: #ffa600;
@@ -414,7 +409,7 @@ footer{
 
 }
 .coder h1{
-    font-size: 50px;
+    font-size: 30px;
 }
 
 
