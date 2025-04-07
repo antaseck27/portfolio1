@@ -64,6 +64,8 @@
         flex-direction: column;
         padding: 0px;
         width: 60%;
+        position: relative;
+        left: 0px;
        
     }
     .section4{

@@ -84,7 +84,6 @@ nav{
 }
 .section3{
 
-   
 }
 .section3 ul li{
     display: inline-block;
@@ -93,9 +92,9 @@ nav{
    
 }
 .section4{
-   display: flex;
-   justify-content: space-between;
-  padding: 50PX;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
   font-size: 1.2em;
  
 }
@@ -127,68 +126,96 @@ nav{
     display: flex;
     justify-content: space-between;
     margin: auto;
-    position: relative;
-    right: 100px;
+    padding: 50px;
+    /* position: relative;
+    left: 0px;  */
      
    
 }
 .about p{
     color: gray;
     font-size: 18px;
+   
   
 }
 
 .about2{
-    display: flex;
-   justify-content: space-around; 
+    position: relative;
+    left: 200px;
+    /* display: flex;
+   justify-content: space-around;  */
     /* height: 70vh; */
-   display: flex;
   
   
-   
+}
+.about2 p h2{
+    
 }
 .gridee{
     /* display: flex;
-    justify-content: center;
-    align-items: center; */
-   
+ justify-content:space-around;
+    */
 
 }
 .une{
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     text-align: center;
-    border:  solid black;
-    padding: 10px;
-    margin: auto;
+    border:  solid rgb(225, 131, 17);
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin: 50px auto; */
+   
 }
 .deux{
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
-    border:  solid black;
+    border:  solid rgb(225, 131, 17);
     text-align: center;
-    padding: 10px;
-    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin: 50px auto; */
+   
 }
 .trois{
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
-    border: solid black;
+    border:  solid rgb(225, 131, 17);
     text-align: center;
-    padding: 10px;
-    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin: 50px auto; */
+    
 }
 .quatre{
-    width: 180px;
-    height: 180px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
-    border: solid black;
+    border:  solid rgb(225, 131, 17);
     text-align: center;
-    padding: 10px;
-    margin: auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin: 50px auto; */
+    
 }
 .list{
     display:flex;
@@ -218,7 +245,6 @@ nav{
     grid-row: 1/2;
     background-image: url("portfolio-1-600x400.jpg"); 
     background-size: cover;
-   
    
 }
 .im2{
